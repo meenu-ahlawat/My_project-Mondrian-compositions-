@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian composition</title>
+  <style>
+  body{display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;}
+   .container{display:grid;
+                 background:black;
+                 gap:12px;
+                 height:922px;
+                 width:717px;
+                 grid-template-columns:80px 80px 80px 170px 100px 100px 35px;
+                 grid-template-rows:180px 180px 180px 70px  70px  40px  130px;
+               }
+                 
+   .white{background:#FAFFC5;}
+   .yellow{background:gold;}
+                 
+    .item1{grid-column:span 2;}
+           
+    .item2{grid-column:span 2;}
+    .item3{grid-column: span 2;}
+       
+    .item6{background:red;
+            grid-column: span 3;
+            grid-row: span 2;} 
+            
+     .item7{ 
+             grid-column:span 2;}
+             
+     .item8{grid-row: span 3;}
+             
+     .item9{grid-row:span 2;}
+              
+      .item12{grid-column: span 2;
+                grid-row: span 2;}
+   
+      .item14{grid-column: span 2;}
+                
+       .item15{grid-row:span 3;}
+                 
+    
+       .item17{background:#4DA1A9; /*blue box */
+               grid-row: span 2;
+               grid-column: span 2;}
+               
+        .item18{background:#DF6D2D;/*orange box */
+                  grid-row: span 3;}
+                  
+        .item19{grid-column: span 2;
+                  grid-row:span 2;}
+                  
+         .item21{grid-column:span 3;}
+        
+  </style>
+  </head>
+  <body>
+  <div class="container">
+    <div class="item1 white"></div>
+    <div class="item2 white"></div>
+    <div class="item3 yellow"></div>
+    <div class="item4 white"></div>
+    <div class="item5 white"></div>
+    <div class="item6"></div>
+    <div class="item7 yellow"></div>
+    <div class="item8 white"></div>
+    <div class="item9 white"></div>
+    <div class="item10 white"></div>
+    <div class="item11 white"></div>
+    <div class="item12"></div>
+    <div class="item13 white"></div>
+    <div class="item14 white"></div>
+    <div class="item15 yellow"></div>
+    <div class="item16 white"></div>
+    <div class="item17"></div>
+    <div class="item18"></div>
+    <div class="item19 white"></div>
+    <div class="item20"></div>
+    <div class="item21 white"> </div>
+    
+    
+  </div>
+  
+  
+  </body>
+  </html>
